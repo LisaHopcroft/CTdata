@@ -1,0 +1,51 @@
+library( simstudy )
+library( magrittr )
+library( dplyr )
+source("CTdata_functions.R")
+
+
+
+
+set.seed(5482)
+
+number_of_participants = 10
+
+timepoint.list = sprintf( "T%d", 0:4 ) 
+
+#####################################################################
+### Initialise the data definition object                         ###
+#####################################################################
+
+trial_data.definition = 
+  ### Defining the gender variable
+  defData( varname = "gender",
+           dist = "categorical",
+           formula = genCatFormula(0.50,0.50),
+           id = "idnum" ) %>% 
+  ### Defining the age variable
+  defData( varname = "age",
+           dist = "gamma",
+           formula = 10,
+           variance = 10 ) %>% 
+  defData( varname = "surgery_planned",
+           dist = "categorical",
+           formula = "0.0;0.3;0.5;0.2" )
+
+
+example_trial_data.tmp = genData( number_of_participants,
+                                  trial_data.definition )
+
+example_trial_data = example_trial_data.tmp %>% 
+  mutate( surgery_performed = surgery_planned-rnorm(number_of_participants) %>% round )
+
+###
+### Surgery translation
+###
+
+surgery_translation = c(
+  "Thrombus - Milked back into renal vein and side clamped",
+  "Infra-hepatic (IVC clamping with no liver mobilisation)",
+  "Retro-hepatic (liver mobilisation and clamping below hepatic veins)",
+  "Retro-hepatic (liver mobilisation and clamping above hepatic veins)",
+  "Supra-hepatic (infradiaphragmatic)"
+)

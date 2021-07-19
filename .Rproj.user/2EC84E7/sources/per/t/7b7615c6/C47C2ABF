@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1617878750926.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1072794584",
+    "id" : "C47C2ABF",
+    "lastKnownWriteTime" : 1617878916,
+    "last_content_update" : 1617878916289,
+    "path" : "/conf/Clinical_Trials_Unit/01 Projects/PACKAGE_CTutils/CTdata/data_definitions.R",
+    "project_path" : "data_definitions.R",
+    "properties" : {
+        "cursorPosition" : "273,74",
+        "scrollLine" : "221"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

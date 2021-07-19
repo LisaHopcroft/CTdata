@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1617786571464.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "878436738",
+    "id" : "BA8AEBDA",
+    "lastKnownWriteTime" : 1617779265,
+    "last_content_update" : 1617779265,
+    "path" : "/conf/Clinical_Trials_Unit/01 Projects/PACKAGE_CTutils/CTdata/CTdata_functions.R",
+    "project_path" : "CTdata_functions.R",
+    "properties" : {
+        "cursorPosition" : "12,27",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,13 @@
+{
+    "path" : "/conf/Clinical_Trials_Unit/01 Projects/PACKAGE_CTutils/CTdata",
+    "sortOrder" : [
+        {
+            "ascending" : false,
+            "columnIndex" : 4
+        },
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

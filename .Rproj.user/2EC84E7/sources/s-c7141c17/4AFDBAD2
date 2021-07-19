@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1624980303966.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4AFDBAD2",
+    "lastKnownWriteTime" : 1624980311,
+    "last_content_update" : 1624980311555,
+    "path" : "/conf/Clinical_Trials_Unit/01 Projects/PACKAGE_CTutils/CTdata/00_generate-dataset1.R",
+    "project_path" : "00_generate-dataset1.R",
+    "properties" : {
+        "cursorPosition" : "114,30",
+        "scrollLine" : "100",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
